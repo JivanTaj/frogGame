@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- created with http://www.physicseditor.de -->
+<bodydef version="1.0">
+    <bodies numBodies="4">
+
+        <body name="FrogJump" dynamic="false" numFixtures="0">
+
+        </body>
+
+        <body name="FrogStandby" dynamic="false" numFixtures="1">
+
+            <fixture
+                density="2"
+                friction="0"
+                restitution="0"
+                filter_categoryBits="1"
+                filter_groupIndex="0"
+                filter_maskBits="65535"
+                isSensor="false"
+                type="POLYGON"
+                numPolygons="7"
+                >
+
+
+                <polygon numVertexes="6">
+
+                    <vertex x="642.5000" y="-344.0000" />
+
+                    <vertex x="571.5000" y="-211.0000" />
+
+                    <vertex x="298.5000" y="95.0000" />
+
+                    <vertex x="327.5000" y="-417.0000" />
+
+                    <vertex x="392.5000" y="-453.0000" />
+
+                    <vertex x="621.5000" y="-426.0000" />
+
+                </polygon>
+
+                <polygon numVertexes="8">
+
+                    <vertex x="-672.5000" y="92.0000" />
+
+                    <vertex x="298.5000" y="95.0000" />
+
+                    <vertex x="606.5000" y="339.0000" />
+
+                    <vertex x="830.5000" y="556.0000" />
+
+                    <vertex x="-532.5000" y="583.0000" />
+
+                    <vertex x="-846.5000" y="448.0000" />
+
+                    <vertex x="-951.5000" y="298.0000" />
+
+                    <vertex x="-943.5000" y="189.0000" />
+
+                </polygon>
+
+                <polygon numVertexes="5">
+
+                    <vertex x="830.5000" y="556.0000" />
+
+                    <vertex x="606.5000" y="339.0000" />
+
+                    <vertex x="765.5000" y="383.0000" />
+
+                    <vertex x="818.5000" y="445.0000" />
+
+                    <vertex x="836.5000" y="495.0000" />
+
+                </polygon>
+
+                <polygon numVertexes="4">
+
+                    <vertex x="327.5000" y="-417.0000" />
+
+                    <vertex x="298.5000" y="95.0000" />
+
+                    <vertex x="129.5000" y="-328.0000" />
+
+                    <vertex x="209.5000" y="-391.0000" />
+
+                </polygon>
+
+                <polygon numVertexes="4">
+
+                    <vertex x="129.5000" y="-328.0000" />
+
+                    <vertex x="298.5000" y="95.0000" />
+
+                    <vertex x="-515.5000" y="-21.0000" />
+
+                    <vertex x="-347.5000" y="-170.0000" />
+
+                </polygon>
+
+                <polygon numVertexes="3">
+
+                    <vertex x="298.5000" y="95.0000" />
+
+                    <vertex x="-672.5000" y="92.0000" />
+
+                    <vertex x="-515.5000" y="-21.0000" />
+
+                </polygon>
+
+                <polygon numVertexes="3">
+
+                    <vertex x="606.5000" y="339.0000" />
+
+                    <vertex x="298.5000" y="95.0000" />
+
+                    <vertex x="392.5000" y="145.0000" />
+
+                </polygon>
+
+
+            </fixture>
+
+        </body>
+
+        <body name="FrogWalk1" dynamic="true" numFixtures="0">
+
+        </body>
+
+        <body name="FrogWalk2" dynamic="true" numFixtures="0">
+
+        </body>
+
+    </bodies>
+    <metadata>
+        <format>1</format>
+        <ptm_ratio></ptm_ratio>
+    </metadata>
+</bodydef>

@@ -1,0 +1,33 @@
+FrogSheet.png
+size: 128, 95
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frogJump
+  rotate: false
+  xy: 1, 1
+  size: 63, 60
+  orig: 64, 61
+  offset: 0, 0
+  index: 64
+frogStand
+  rotate: false
+  xy: 66, 37
+  size: 55, 34
+  orig: 64, 61
+  offset: 3, 11
+  index: 64
+frogWalk1
+  rotate: false
+  xy: 1, 63
+  size: 63, 31
+  orig: 64, 61
+  offset: 0, 12
+  index: 64
+frogwalk2
+  rotate: false
+  xy: 66, 1
+  size: 61, 34
+  orig: 64, 61
+  offset: 0, 9
+  index: 64
